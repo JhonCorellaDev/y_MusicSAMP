@@ -12,11 +12,11 @@ CMD:mp3(playerid, params[])
 
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
-	new urlfinal[1024];
+	new y_url[1024];
 	if(dialogid == DIALOG_Y_MUSIC)
 	{
 		format(urlfinal, 1024, "http://your.domain/music/index.php?n=%s", inputtext);
-		PlayAudioStreamForPlayer(playerid, urlfinal);
+		PlayAudioStreamForPlayer(playerid, y_url);
 		SendClientMessage(playerid, 0x00ff00ff, "Escuchando Musica!");
 		return 1;
 	}
