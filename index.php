@@ -1,7 +1,7 @@
 <?php 
 /*
 
-         Sistema de Busqueda de Canciones usando solo so nombre Code by TioJhon
+         Sistema de Busqueda de Canciones usando solo so nombre Code by TioJhon free Share
 		
 		Con este sencillo script podras facilmente buscar canciones por su nombre y se reproduciran en tu Servidor
 
